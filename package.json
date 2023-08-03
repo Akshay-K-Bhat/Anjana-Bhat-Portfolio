@@ -1,0 +1,30 @@
+{
+  "name": "deved",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/router": "^0.0.1-beta.104",
+    "classnames": "^2.3.2",
+    "framer-motion": "^10.12.18",
+    "lottie-react": "^2.4.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.14.1",
+    "vite-plugin-svgr": "^3.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.14",
+    "@types/react-dom": "^18.2.6",
+    "@vitejs/plugin-react": "^4.0.2",
+    "@wixc3/react-board": "^2.2.1",
+    "sass": "^1.63.6",
+    "typescript": "^5.1.6",
+    "vite": "^4.4.0"
+  }
+}
