@@ -24,7 +24,7 @@
 .grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
-  grid-gap: 2rem;
+  grid-gap: 4rem;
   margin: 2rem 0rem 0rem;
 }
 .grid-item {
