@@ -1,7 +1,7 @@
 import { createBoard } from '@wixc3/react-board';
-import { Portfolio } from '../../../components/portfolio/portfolio';
+import { Portofolio } from '../../../components/portofolio/portofolio';
 
 export default createBoard({
     name: 'Portfolio',
-    Board: () => <Portfolio />
+    Board: () => <Portofolio />
 });
