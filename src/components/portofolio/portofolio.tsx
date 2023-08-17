@@ -2,8 +2,8 @@ import classNames from 'classnames';
 import styles from './portofolio.module.scss';
 import website_1 from '../../assets/sushi-thumbnail.png';
 import website_2 from '../../assets/pix_edit-thumbnail.png';
-import website_3 from '../../assets/flora_market-thumbnail.png';
-import website_4 from '../../assets/colorex-thumbnail.png';
+import website_3 from '../../assets/rock_paper_thumbnail.png';
+import website_4 from '../../assets/weater_app_thumbnail.png';
 import linkedIn from '../../assets/linkedin.svg'
 import GitHub from '../../assets/github.svg'
 import twitter from '../../assets/twitter.svg'
@@ -77,15 +77,15 @@ export const Portofolio = ({ className }: PortofolioProps) => {
                 <motion.div className={styles['grid-item']}>
                     <img src={website_3} className={styles['grid-img']} />
                     <div className={styles['visit-portofolio']}>
-                        <h4 className={styles.h4}>Flora-Market</h4>
-                        <a href="https://akshay-k-bhat.github.io/Flora-Market/">Visit </a>
+                        <h4 className={styles.h4}>Stone-Paper-Scissor</h4>
+                        <a href="https://anjanabhat12.github.io/rock-paper-scissors/">Visit </a>
                     </div>
                 </motion.div>
                 <motion.div className={styles['grid-item']}>
                     <img src={website_4} className={styles['grid-img']} />
                     <div className={styles['visit-portofolio']}>
-                        <h4 className={styles.h4}>Color-Hex</h4>
-                        <a href="https://akshay-k-bhat.github.io/Color-Hex/">Visit</a>
+                        <h4 className={styles.h4}>Weather App</h4>
+                        <a href="https://anjanabhat12.github.io/weather_app/">Visit</a>
                     </div>
                 </motion.div>
             </div>
